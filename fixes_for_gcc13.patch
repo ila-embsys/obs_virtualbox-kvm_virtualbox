@@ -1,0 +1,18 @@
+---
+ src/VBox/Additions/x11/x11include/XFree86-4.3/Xserver/misc.h |    3 +++
+ 1 file changed, 3 insertions(+)
+
+Index: VirtualBox-7.1.0/src/VBox/Additions/x11/x11include/XFree86-4.3/Xserver/misc.h
+===================================================================
+--- VirtualBox-7.1.0.orig/src/VBox/Additions/x11/x11include/XFree86-4.3/Xserver/misc.h
++++ VirtualBox-7.1.0/src/VBox/Additions/x11/x11include/XFree86-4.3/Xserver/misc.h
+@@ -66,6 +66,9 @@ TORTIOUS ACTION, ARISING OUT OF OR IN CO
+ OF THIS SOFTWARE.
+ 
+ ******************************************************************/
++
++#define __STDC_HOSTED__ 1
++
+ /* $Xorg: misc.h,v 1.5 2001/02/09 02:05:15 xorgcvs Exp $ */
+ #ifndef MISC_H
+ #define MISC_H 1

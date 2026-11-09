@@ -1,0 +1,4 @@
+<multibuild>
+  <flavor>kmp</flavor>
+  <flavor>kvm</flavor>
+</multibuild>
